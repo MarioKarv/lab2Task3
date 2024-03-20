@@ -102,10 +102,13 @@ h1 > span {
   width :950px;
   list-style: none;
   padding: 0;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  grid-row-gap: 10px;
+  grid-row-gap: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: center; 
   align-items: center;
   padding: 0 200px;
